@@ -1,0 +1,42 @@
+\documentclass[11pt,oneside,a4paper]{CMUThesis}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsthm} 
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{multicol}
+
+\watermark	
+\begin{document}
+\include{ThesisInfo} 
+\pagenumbering{roman}
+\CoverTitlePage 
+\pagenumbering{alph}
+\include{ApprovalPage} 
+% \include{ApprovalPage} 
+\DedicationPage 
+\include{Acknowledgement}	
+
+\include{Abstract_Thai}						
+\include{Abstract_English}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\include{symbols-table}
+
+\pagenumbering{arabic} % page numbering 		
+
+% \chapter{Introduction}\label{Chap:Intro}
+% \section{Earthquake}
+% {\Tb สวัสดี} {\T สวัสดี}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{chapter5}
+% Manual ----------------------  	
+\include{Bibliography}	  
+\include{CurriculumVitae}   
+\end{document}
